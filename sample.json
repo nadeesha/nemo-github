@@ -1,0 +1,2643 @@
+[
+  {
+    "id": "3730464664",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 2942312,PushEvent
+      "login": "ncthis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncthis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2942312?"
+    },
+    "repo": {
+      "id": 12601374,
+      "name": "facebook/react-devtools",
+      "url": "https://api.github.com/repos/facebook/react-devtools"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/facebook/react-devtools/issues/311",
+        "repository_url": "https://api.github.com/repos/facebook/react-devtools",
+        "labels_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/labels{/name}",
+        "comments_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/comments",
+        "events_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/events",
+        "html_url": "https://github.com/facebook/react-devtools/pull/311",
+        "id": 125889449,
+        "number": 311,
+        "title": "Debouncing search text change",
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/facebook/react-devtools/labels/CLA%20Signed",
+            "name": "CLA Signed",
+            "color": "cccccc"
+          },
+          {
+            "url": "https://api.github.com/repos/facebook/react-devtools/labels/GH%20Review:%20review-needed",
+            "name": "GH Review: review-needed",
+            "color": "fbca04"
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 12,
+        "created_at": "2016-01-11T07:49:11Z",
+        "updated_at": "2016-03-07T13:20:43Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/facebook/react-devtools/pulls/311",
+          "html_url": "https://github.com/facebook/react-devtools/pull/311",
+          "diff_url": "https://github.com/facebook/react-devtools/pull/311.diff",
+          "patch_url": "https://github.com/facebook/react-devtools/pull/311.patch"
+        },
+        "body": "When using the search box in devtools, if my keystrokes are too quick, then they are dropped. For an example, typing \"Table\" would amount to:\r\n\r\n![image](https://dl.dropboxusercontent.com/u/3240167/devtools.gif)\r\n\r\nTherefore, I propose that the `onChangeSearch` function be `debounce`d."
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/facebook/react-devtools/issues/comments/193245476",
+        "html_url": "https://github.com/facebook/react-devtools/pull/311#issuecomment-193245476",
+        "issue_url": "https://api.github.com/repos/facebook/react-devtools/issues/311",
+        "id": 193245476,
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2016-03-07T13:20:43Z",
+        "updated_at": "2016-03-07T13:20:43Z",
+        "body": "@jaredly Any chance on getting this merged?"
+      }
+    },
+    "public": true,
+    "created_at": "2016-03-07T13:20:43Z",
+    "org": {
+      "id": 69631,
+      "login": "facebook",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/facebook",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+    }
+  },
+  {
+    "id": "3686767006",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 2942312,
+      "login": "ncthis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncthis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2942312?"
+    },
+    "repo": {
+      "id": 12601374,
+      "name": "facebook/react-devtools",
+      "url": "https://api.github.com/repos/facebook/react-devtools"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/facebook/react-devtools/pulls/comments/54044380",
+        "id": 54044380,
+        "diff_hunk": "@@ -150,6 +151,7 @@ class Store extends EventEmitter {\n     this._establishConnection();\n     this._eventQueue = [];\n     this._eventTimer = null;\n+    this._emitSearchRootsChange = debounce(this.filterSearchRoots, 100);",
+        "path": "frontend/Store.js",
+        "position": 20,
+        "original_position": 12,
+        "commit_id": "da158f6f46088e177eecd0caafcb4ca5d08ef6c4",
+        "original_commit_id": "00ff7dcaf9fc613c9cc18cccb9d405fe630a3b72",
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "@Timothee Thanks for the heads up. I actually needed to add the type check function with `Function` in `Store`.",
+        "created_at": "2016-02-25T03:24:04Z",
+        "updated_at": "2016-02-25T03:24:04Z",
+        "html_url": "https://github.com/facebook/react-devtools/pull/311#discussion_r54044380",
+        "pull_request_url": "https://api.github.com/repos/facebook/react-devtools/pulls/311",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/comments/54044380"
+          },
+          "html": {
+            "href": "https://github.com/facebook/react-devtools/pull/311#discussion_r54044380"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/311"
+          }
+        }
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/facebook/react-devtools/pulls/311",
+        "id": 55593915,
+        "html_url": "https://github.com/facebook/react-devtools/pull/311",
+        "diff_url": "https://github.com/facebook/react-devtools/pull/311.diff",
+        "patch_url": "https://github.com/facebook/react-devtools/pull/311.patch",
+        "issue_url": "https://api.github.com/repos/facebook/react-devtools/issues/311",
+        "number": 311,
+        "state": "open",
+        "locked": false,
+        "title": "Debouncing search text change",
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "When using the search box in devtools, if my keystrokes are too quick, then they are dropped. For an example, typing \"Table\" would amount to:\r\n\r\n![image](https://dl.dropboxusercontent.com/u/3240167/devtools.gif)\r\n\r\nTherefore, I propose that the `onChangeSearch` function be `debounce`d.",
+        "created_at": "2016-01-11T07:49:11Z",
+        "updated_at": "2016-02-25T03:24:04Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": "b7ee30b7a17a8cfff7acddc37d29aba2357ed2fd",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/facebook/react-devtools/pulls/311/commits",
+        "review_comments_url": "https://api.github.com/repos/facebook/react-devtools/pulls/311/comments",
+        "review_comment_url": "https://api.github.com/repos/facebook/react-devtools/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/comments",
+        "statuses_url": "https://api.github.com/repos/facebook/react-devtools/statuses/da158f6f46088e177eecd0caafcb4ca5d08ef6c4",
+        "head": {
+          "label": "ncthis:master",
+          "ref": "master",
+          "sha": "da158f6f46088e177eecd0caafcb4ca5d08ef6c4",
+          "user": {
+            "login": "ncthis",
+            "id": 2942312,
+            "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ncthis",
+            "html_url": "https://github.com/ncthis",
+            "followers_url": "https://api.github.com/users/ncthis/followers",
+            "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+            "organizations_url": "https://api.github.com/users/ncthis/orgs",
+            "repos_url": "https://api.github.com/users/ncthis/repos",
+            "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ncthis/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 49406651,
+            "name": "react-devtools",
+            "full_name": "ncthis/react-devtools",
+            "owner": {
+              "login": "ncthis",
+              "id": 2942312,
+              "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/ncthis",
+              "html_url": "https://github.com/ncthis",
+              "followers_url": "https://api.github.com/users/ncthis/followers",
+              "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+              "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+              "organizations_url": "https://api.github.com/users/ncthis/orgs",
+              "repos_url": "https://api.github.com/users/ncthis/repos",
+              "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/ncthis/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/ncthis/react-devtools",
+            "description": "An extension that allows inspection of React component hierarchy in Chrome Developer Tools.",
+            "fork": true,
+            "url": "https://api.github.com/repos/ncthis/react-devtools",
+            "forks_url": "https://api.github.com/repos/ncthis/react-devtools/forks",
+            "keys_url": "https://api.github.com/repos/ncthis/react-devtools/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/ncthis/react-devtools/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/ncthis/react-devtools/teams",
+            "hooks_url": "https://api.github.com/repos/ncthis/react-devtools/hooks",
+            "issue_events_url": "https://api.github.com/repos/ncthis/react-devtools/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/ncthis/react-devtools/events",
+            "assignees_url": "https://api.github.com/repos/ncthis/react-devtools/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/ncthis/react-devtools/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/ncthis/react-devtools/tags",
+            "blobs_url": "https://api.github.com/repos/ncthis/react-devtools/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/ncthis/react-devtools/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/ncthis/react-devtools/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/ncthis/react-devtools/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/ncthis/react-devtools/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/ncthis/react-devtools/languages",
+            "stargazers_url": "https://api.github.com/repos/ncthis/react-devtools/stargazers",
+            "contributors_url": "https://api.github.com/repos/ncthis/react-devtools/contributors",
+            "subscribers_url": "https://api.github.com/repos/ncthis/react-devtools/subscribers",
+            "subscription_url": "https://api.github.com/repos/ncthis/react-devtools/subscription",
+            "commits_url": "https://api.github.com/repos/ncthis/react-devtools/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/ncthis/react-devtools/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/ncthis/react-devtools/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/ncthis/react-devtools/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/ncthis/react-devtools/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/ncthis/react-devtools/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/ncthis/react-devtools/merges",
+            "archive_url": "https://api.github.com/repos/ncthis/react-devtools/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/ncthis/react-devtools/downloads",
+            "issues_url": "https://api.github.com/repos/ncthis/react-devtools/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/ncthis/react-devtools/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/ncthis/react-devtools/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/ncthis/react-devtools/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/ncthis/react-devtools/labels{/name}",
+            "releases_url": "https://api.github.com/repos/ncthis/react-devtools/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/ncthis/react-devtools/deployments",
+            "created_at": "2016-01-11T06:25:31Z",
+            "updated_at": "2016-01-11T06:25:32Z",
+            "pushed_at": "2016-02-25T03:19:02Z",
+            "git_url": "git://github.com/ncthis/react-devtools.git",
+            "ssh_url": "git@github.com:ncthis/react-devtools.git",
+            "clone_url": "https://github.com/ncthis/react-devtools.git",
+            "svn_url": "https://github.com/ncthis/react-devtools",
+            "homepage": "",
+            "size": 7730,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": false,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "facebook:master",
+          "ref": "master",
+          "sha": "913f8e55326a69d64b2836b515ebc0a4a1f42390",
+          "user": {
+            "login": "facebook",
+            "id": 69631,
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/facebook",
+            "html_url": "https://github.com/facebook",
+            "followers_url": "https://api.github.com/users/facebook/followers",
+            "following_url": "https://api.github.com/users/facebook/following{/other_user}",
+            "gists_url": "https://api.github.com/users/facebook/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/facebook/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/facebook/subscriptions",
+            "organizations_url": "https://api.github.com/users/facebook/orgs",
+            "repos_url": "https://api.github.com/users/facebook/repos",
+            "events_url": "https://api.github.com/users/facebook/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/facebook/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 12601374,
+            "name": "react-devtools",
+            "full_name": "facebook/react-devtools",
+            "owner": {
+              "login": "facebook",
+              "id": 69631,
+              "avatar_url": "https://avatars.githubusercontent.com/u/69631?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/facebook",
+              "html_url": "https://github.com/facebook",
+              "followers_url": "https://api.github.com/users/facebook/followers",
+              "following_url": "https://api.github.com/users/facebook/following{/other_user}",
+              "gists_url": "https://api.github.com/users/facebook/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/facebook/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/facebook/subscriptions",
+              "organizations_url": "https://api.github.com/users/facebook/orgs",
+              "repos_url": "https://api.github.com/users/facebook/repos",
+              "events_url": "https://api.github.com/users/facebook/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/facebook/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/facebook/react-devtools",
+            "description": "An extension that allows inspection of React component hierarchy in Chrome Developer Tools.",
+            "fork": false,
+            "url": "https://api.github.com/repos/facebook/react-devtools",
+            "forks_url": "https://api.github.com/repos/facebook/react-devtools/forks",
+            "keys_url": "https://api.github.com/repos/facebook/react-devtools/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/facebook/react-devtools/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/facebook/react-devtools/teams",
+            "hooks_url": "https://api.github.com/repos/facebook/react-devtools/hooks",
+            "issue_events_url": "https://api.github.com/repos/facebook/react-devtools/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/facebook/react-devtools/events",
+            "assignees_url": "https://api.github.com/repos/facebook/react-devtools/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/facebook/react-devtools/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/facebook/react-devtools/tags",
+            "blobs_url": "https://api.github.com/repos/facebook/react-devtools/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/facebook/react-devtools/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/facebook/react-devtools/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/facebook/react-devtools/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/facebook/react-devtools/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/facebook/react-devtools/languages",
+            "stargazers_url": "https://api.github.com/repos/facebook/react-devtools/stargazers",
+            "contributors_url": "https://api.github.com/repos/facebook/react-devtools/contributors",
+            "subscribers_url": "https://api.github.com/repos/facebook/react-devtools/subscribers",
+            "subscription_url": "https://api.github.com/repos/facebook/react-devtools/subscription",
+            "commits_url": "https://api.github.com/repos/facebook/react-devtools/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/facebook/react-devtools/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/facebook/react-devtools/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/facebook/react-devtools/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/facebook/react-devtools/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/facebook/react-devtools/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/facebook/react-devtools/merges",
+            "archive_url": "https://api.github.com/repos/facebook/react-devtools/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/facebook/react-devtools/downloads",
+            "issues_url": "https://api.github.com/repos/facebook/react-devtools/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/facebook/react-devtools/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/facebook/react-devtools/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/facebook/react-devtools/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/facebook/react-devtools/labels{/name}",
+            "releases_url": "https://api.github.com/repos/facebook/react-devtools/releases{/id}",
+            "deployments_url": "https://api.github.com/repos/facebook/react-devtools/deployments",
+            "created_at": "2013-09-04T20:28:43Z",
+            "updated_at": "2016-02-25T00:21:57Z",
+            "pushed_at": "2016-02-25T03:19:03Z",
+            "git_url": "git://github.com/facebook/react-devtools.git",
+            "ssh_url": "git@github.com:facebook/react-devtools.git",
+            "clone_url": "https://github.com/facebook/react-devtools.git",
+            "svn_url": "https://github.com/facebook/react-devtools",
+            "homepage": "",
+            "size": 63552,
+            "stargazers_count": 2103,
+            "watchers_count": 2103,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 212,
+            "mirror_url": null,
+            "open_issues_count": 70,
+            "forks": 212,
+            "open_issues": 70,
+            "watchers": 2103,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/311"
+          },
+          "html": {
+            "href": "https://github.com/facebook/react-devtools/pull/311"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/issues/311"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/issues/311/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/311/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/311/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/statuses/da158f6f46088e177eecd0caafcb4ca5d08ef6c4"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2016-02-25T03:24:04Z",
+    "org": {
+      "id": 69631,
+      "login": "facebook",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/facebook",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+    }
+  },
+  {
+    "id": "3686755438",
+    "type": "PushEvent",
+    "actor": {
+      "id": 2942312,
+      "login": "ncthis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncthis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2942312?"
+    },
+    "repo": {
+      "id": 49406651,
+      "name": "ncthis/react-devtools",
+      "url": "https://api.github.com/repos/ncthis/react-devtools"
+    },
+    "payload": {
+      "push_id": 992799949,
+      "size": 15,
+      "distinct_size": 15,
+      "ref": "refs/heads/master",
+      "head": "da158f6f46088e177eecd0caafcb4ca5d08ef6c4",
+      "before": "00ff7dcaf9fc613c9cc18cccb9d405fe630a3b72",
+      "commits": [
+        {
+          "sha": "b6b7f2095c219ab5c7ac3122e7366d9bf82a2da1",
+          "author": {
+            "email": "huge.huang@gmail.com",
+            "name": "ShihChi Huang"
+          },
+          "message": "Revert \"use webpack DefinePlugin to dramatically simplify things\"\n\nThis reverts commit d748a51b9562dd6253f20b8795f765a9b1e5000c.",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/b6b7f2095c219ab5c7ac3122e7366d9bf82a2da1"
+        },
+        {
+          "sha": "0bb26d80ff4cdc41af036fe57d3445254de83031",
+          "author": {
+            "email": "ben@benalpert.com",
+            "name": "Ben Alpert"
+          },
+          "message": "Merge pull request #317 from huang47/pr/313\n\nRevert \"use webpack DefinePlugin to dramatically simplify things\"",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/0bb26d80ff4cdc41af036fe57d3445254de83031"
+        },
+        {
+          "sha": "3b2e75f780519e55786ba8abf8628404ac2b2218",
+          "author": {
+            "email": "balpert@fb.com",
+            "name": "Ben Alpert"
+          },
+          "message": "0.14.8",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/3b2e75f780519e55786ba8abf8628404ac2b2218"
+        },
+        {
+          "sha": "f5b5771ffac5846caa4bbbbefbdb3c624954a59a",
+          "author": {
+            "email": "raymond@shraymonks.com",
+            "name": "Raymond Ha"
+          },
+          "message": "Fix scroll to selected element",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/f5b5771ffac5846caa4bbbbefbdb3c624954a59a"
+        },
+        {
+          "sha": "81f73869aaa27386483c6faa0b685f919322708b",
+          "author": {
+            "email": "ben@benalpert.com",
+            "name": "Ben Alpert"
+          },
+          "message": "Merge pull request #318 from Shraymonks/scroll-to-selected-element\n\nFix scroll to selected element",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/81f73869aaa27386483c6faa0b685f919322708b"
+        },
+        {
+          "sha": "b75f8fdab4df2e99b439569905574c8667a4cf68",
+          "author": {
+            "email": "mat.tyndall@gmail.com",
+            "name": "Mat Tyndall"
+          },
+          "message": "fixed tabbed resizing bug on Chrome",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/b75f8fdab4df2e99b439569905574c8667a4cf68"
+        },
+        {
+          "sha": "bd3d1e8632034ea1b73de7094a53f5f82ffa9d0b",
+          "author": {
+            "email": "jan@kassens.net",
+            "name": "Jan Kassens"
+          },
+          "message": "Merge pull request #324 from flipside/master\n\nfixed tabbed resizing bug on Chrome",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/bd3d1e8632034ea1b73de7094a53f5f82ffa9d0b"
+        },
+        {
+          "sha": "c031227b5d215220bff9dde483f84b340281dc5d",
+          "author": {
+            "email": "jkassens@fb.com",
+            "name": "Jan Kassens"
+          },
+          "message": "Update to flow 0.21.0\n\nThis found that we missed the `key` in `DOMEvent` as documented here:\nhttps://facebook.github.io/react/docs/events.html#keyboard-events",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/c031227b5d215220bff9dde483f84b340281dc5d"
+        },
+        {
+          "sha": "3d64d8b80d75b1f22f1781ce2ba097629b199734",
+          "author": {
+            "email": "jkassens@fb.com",
+            "name": "Jan Kassens"
+          },
+          "message": "Alphabetize",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/3d64d8b80d75b1f22f1781ce2ba097629b199734"
+        },
+        {
+          "sha": "af5ff8ab4646c616eaa7e2be5b840e863369895e",
+          "author": {
+            "email": "jkassens@fb.com",
+            "name": "Jan Kassens"
+          },
+          "message": "Update npm-shrinkwrap.json",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/af5ff8ab4646c616eaa7e2be5b840e863369895e"
+        },
+        {
+          "sha": "a197da69801ba5f29d0efa80e70b8d9ea6d27217",
+          "author": {
+            "email": "jan@kassens.net",
+            "name": "Jan Kassens"
+          },
+          "message": "Merge pull request #325 from kassens/flow-0.21.0\n\nFlow 0.21.0",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/a197da69801ba5f29d0efa80e70b8d9ea6d27217"
+        },
+        {
+          "sha": "d90c43201617d5aef378669da926d79515b6a811",
+          "author": {
+            "email": "jkassens@fb.com",
+            "name": "Jan Kassens"
+          },
+          "message": "Capitalize label",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/d90c43201617d5aef378669da926d79515b6a811"
+        },
+        {
+          "sha": "df07b560e910a8207548efbd59417461fec2ac64",
+          "author": {
+            "email": "jkassens@fb.com",
+            "name": "Jan Kassens"
+          },
+          "message": "Update jest to 0.9.0-fb2",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/df07b560e910a8207548efbd59417461fec2ac64"
+        },
+        {
+          "sha": "913f8e55326a69d64b2836b515ebc0a4a1f42390",
+          "author": {
+            "email": "jan@kassens.net",
+            "name": "Jan Kassens"
+          },
+          "message": "Merge pull request #326 from kassens/jest0.9\n\nUpdate jest to 0.9.0-fb2",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/913f8e55326a69d64b2836b515ebc0a4a1f42390"
+        },
+        {
+          "sha": "da158f6f46088e177eecd0caafcb4ca5d08ef6c4",
+          "author": {
+            "email": "nadeesha.cabral@gmail.com",
+            "name": "Nadeesha Cabral"
+          },
+          "message": "Debouncing search text change\nDebouncing search text change\n\nReverting SearchPane.js to 7b6d7626d8e3dae2b266b71bd53147697ca92384\n\nDebounce filtering results",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/da158f6f46088e177eecd0caafcb4ca5d08ef6c4"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-02-25T03:19:05Z"
+  },
+  {
+    "id": "3686670501",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 2942312,
+      "login": "ncthis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncthis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2942312?"
+    },
+    "repo": {
+      "id": 12601374,
+      "name": "facebook/react-devtools",
+      "url": "https://api.github.com/repos/facebook/react-devtools"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/facebook/react-devtools/issues/311",
+        "repository_url": "https://api.github.com/repos/facebook/react-devtools",
+        "labels_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/labels{/name}",
+        "comments_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/comments",
+        "events_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/events",
+        "html_url": "https://github.com/facebook/react-devtools/pull/311",
+        "id": 125889449,
+        "number": 311,
+        "title": "Debouncing search text change",
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/facebook/react-devtools/labels/CLA%20Signed",
+            "name": "CLA Signed",
+            "color": "cccccc"
+          },
+          {
+            "url": "https://api.github.com/repos/facebook/react-devtools/labels/GH%20Review:%20review-needed",
+            "name": "GH Review: review-needed",
+            "color": "fbca04"
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 11,
+        "created_at": "2016-01-11T07:49:11Z",
+        "updated_at": "2016-02-25T02:44:05Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/facebook/react-devtools/pulls/311",
+          "html_url": "https://github.com/facebook/react-devtools/pull/311",
+          "diff_url": "https://github.com/facebook/react-devtools/pull/311.diff",
+          "patch_url": "https://github.com/facebook/react-devtools/pull/311.patch"
+        },
+        "body": "When using the search box in devtools, if my keystrokes are too quick, then they are dropped. For an example, typing \"Table\" would amount to:\r\n\r\n![image](https://dl.dropboxusercontent.com/u/3240167/devtools.gif)\r\n\r\nTherefore, I propose that the `onChangeSearch` function be `debounce`d."
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/facebook/react-devtools/issues/comments/188573551",
+        "html_url": "https://github.com/facebook/react-devtools/pull/311#issuecomment-188573551",
+        "issue_url": "https://api.github.com/repos/facebook/react-devtools/issues/311",
+        "id": 188573551,
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2016-02-25T02:44:05Z",
+        "updated_at": "2016-02-25T02:44:05Z",
+        "body": "@RaitoBezarius I will try to push this within the next few hours."
+      }
+    },
+    "public": true,
+    "created_at": "2016-02-25T02:44:06Z",
+    "org": {
+      "id": 69631,
+      "login": "facebook",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/facebook",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+    }
+  },
+  {
+    "id": "3578181528",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 2942312,
+      "login": "ncthis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncthis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2942312?"
+    },
+    "repo": {
+      "id": 3678731,
+      "name": "webpack/webpack",
+      "url": "https://api.github.com/repos/webpack/webpack"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/webpack/webpack/issues/1553",
+        "labels_url": "https://api.github.com/repos/webpack/webpack/issues/1553/labels{/name}",
+        "comments_url": "https://api.github.com/repos/webpack/webpack/issues/1553/comments",
+        "events_url": "https://api.github.com/repos/webpack/webpack/issues/1553/events",
+        "html_url": "https://github.com/webpack/webpack/issues/1553",
+        "id": 113556681,
+        "number": 1553,
+        "title": "Mysterious build failures on Heroku (no error details, css-loader somehow involved)",
+        "user": {
+          "login": "rpominov",
+          "id": 825702,
+          "avatar_url": "https://avatars.githubusercontent.com/u/825702?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/rpominov",
+          "html_url": "https://github.com/rpominov",
+          "followers_url": "https://api.github.com/users/rpominov/followers",
+          "following_url": "https://api.github.com/users/rpominov/following{/other_user}",
+          "gists_url": "https://api.github.com/users/rpominov/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/rpominov/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/rpominov/subscriptions",
+          "organizations_url": "https://api.github.com/users/rpominov/orgs",
+          "repos_url": "https://api.github.com/users/rpominov/repos",
+          "events_url": "https://api.github.com/users/rpominov/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/rpominov/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/webpack/webpack/labels/question",
+            "name": "question",
+            "color": "cc317c"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 6,
+        "created_at": "2015-10-27T10:53:06Z",
+        "updated_at": "2016-01-28T06:42:14Z",
+        "closed_at": "2015-11-25T16:58:41Z",
+        "body": "Disclaimer: this is probably not an issue with Webpack but rather an issue with Heroku (it fails only on Heroku), but main reason of posting here is to get some directions of how we could localize the issue, because Webpack prints zero error messages just silently fails.\r\n\r\nWe also think that the problem somehow related to CSS compilation in particular. First we run into this issue after upgrading `css-loader` to `v0.19`, and we decided to use `css-loader@0.18` temporarily. But then, after we had more CSS, we run into the same issue with `0.18`. We switched to paid plan on Heroku, which allowed us to build using `css-loader@0.18` (not `0.19+` though) for a while, but then, after we wrote more CSS, the issue came back again.\r\n\r\nWe build our front-end code on Heroku, specifically by running following command in \"postinstall\" npm script:\r\n```\r\nwebpack --config webpack-stage.config.js --progress --profile --colors --display-error-details --debug\r\n```\r\n\r\nAnd we get the following output from Heroku:\r\n```\r\nDeploying application\r\ncreating application archive\r\nuploading application archive\r\ntriggering new deployment\r\n-----> Fetching custom buildpack https://github.com/heroku/heroku-buildpack-multi.git... done\r\n-----> Multipack app detected\r\n=====> Downloading Buildpack: https://github.com/debitoor/ssh-private-key-buildpack.git\r\n=====> Detected Framework: SSH private key\r\n-----> Running SSH private key setup\r\n       Warning: Permanently added 'github.com,~some IP address~' (RSA) to the list of known hosts.\r\n       Hi ***! You've successfully authenticated, but GitHub does not provide shell access.\r\n=====> Downloading Buildpack: https://github.com/heroku/heroku-buildpack-nodejs.git\r\n=====> Detected Framework: Node.js\r\n-----> Creating runtime environment\r\n       \r\n       NPM_CONFIG_LOGLEVEL=error\r\n       NPM_CONFIG_PRODUCTION=true\r\n       NODE_ENV=staging\r\n       NODE_MODULES_CACHE=true\r\n       \r\n       npm scripts will see NODE_ENV=production (not 'staging')\r\n       https://docs.npmjs.com/misc/config#production\r\n-----> Installing binaries\r\n       engines.node (package.json):  4.x.x\r\n       engines.npm (package.json):   2.x.x\r\n       \r\n       Resolving node version 4.x.x via semver.io...\r\n       Downloading and installing node 4.2.1...\r\n       Resolving npm version 2.x.x via semver.io...\r\n       Downloading and installing npm 2.14.8 (replacing version 2.14.7)...\r\n-----> Restoring cache\r\n       Loading 2 from cacheDirectories (default):\r\n       - node_modules\r\n       - bower_components (not cached - skipping)\r\n-----> Building dependencies\r\n       Pruning any extraneous modules\r\n       Installing node modules (package.json)\r\n       \r\n       > onlineeducation-frontend@0.0.0 postinstall /tmp/build_ed2ac827f93d7fb13a64bdfc659f6f28\r\n       > if [ \"$HEROKU\" = \"1\" ]; then npm run build-stage ; fi\r\n       \r\n       \r\n       > onlineeducation-frontend@0.0.0 build-stage /tmp/build_ed2ac827f93d7fb13a64bdfc659f6f28\r\n       > webpack --config webpack-stage.config.js --progress --profile --colors --display-error-details --debug\r\n       \r\n 31% 125/353 build modulesContainer#eachAtRule is deprecated. Use Container#walkAtRules instead.\r\n       Container#eachRule is deprecated. Use Container#walkRules instead.\r\n       Container#eachDecl is deprecated. Use Container#walkDecls instead.\r\n 41% 192/363 build modulesNode#before is deprecated. Use Node#raws.before\r\n       Node#removeSelf is deprecated. Use Node#remove.\r\n 65% 940/101\r\n-----> Build failed\r\n       \r\n       We're sorry this build is failing! You can troubleshoot common issues here:\r\n       https://devcenter.heroku.com/articles/troubleshooting-node-deploys\r\n       \r\n       If you're stuck, please submit a ticket so we can help:\r\n       https://help.heroku.com/\r\n       \r\n       Love,\r\n       Heroku\r\n       \r\n !     Push rejected, failed to compile Multipack app\r\n```\r\n\r\nAlso Heroku sometimes prints this line:\r\n```\r\ncouldn't write 98058 items to stdout: Resource temporarily unavailable\r\n```\r\n\r\nHere is how our config looks like (stripped out a bit, but all important parts should be in place):\r\n```js\r\nvar path = require('path')\r\nvar webpack = require('webpack')\r\nvar StatsPlugin = require('stats-webpack-plugin')\r\nvar ExtractTextPlugin = require('extract-text-webpack-plugin')\r\n\r\nvar root = path.join(__dirname, 'app')\r\n\r\nvar excludeFromStats = [\r\n  /node_modules/,\r\n]\r\n\r\nvar plugins = []\r\n\r\nvar globals = {\r\n  __PRERENDER__: JSON.stringify(false || false),\r\n  __DEV__: JSON.stringify(true),\r\n  'process.env.NODE_ENV': JSON.stringify('development'),\r\n}\r\n\r\nvar cssLoader = '?disableStructuralMinification&modules'\r\n  + '&localIdentName=[name]__[local]__[hash:base64:5]'\r\n  + '!autoprefixer!stylus'\r\n\r\ncssLoader = ExtractTextPlugin.extract('style', 'css' + cssLoader)\r\nplugins.push(\r\n  new ExtractTextPlugin('[name].css?[contenthash]')\r\n)\r\n\r\nplugins.push(\r\n  new StatsPlugin(path.join(__dirname, 'build', 'stats.json'), {\r\n    chunkModules: true,\r\n    exclude: excludeFromStats,\r\n    source: false,\r\n  })\r\n)\r\n\r\nplugins.push(new webpack.DefinePlugin(globals))\r\n\r\n\r\n\r\nvar entry = {\r\n  main: ['./build-entries/in-browser'],\r\n}\r\nentry.lib = ['./build-entries/in-browser-lib']\r\nentry.admin = ['./build-entries/admin-panel.js']\r\n\r\nObject.keys(entry).forEach(function(key) {\r\n  entry[key].unshift('babel-core/polyfill')\r\n})\r\n\r\nvar output = {\r\n  path: path.join(__dirname, 'build', false ? 'prerender' : 'public'),\r\n  publicPath: '/_assets/',\r\n  filename: '[name].js?[chunkhash]',\r\n  pathinfo: true,\r\n}\r\n\r\nvar _module = {\r\n  loaders: [\r\n    {test: /\\.jsx$/, loader: false ? 'react-hot!babel' : 'babel'},\r\n    {test: /\\.js$/, loader: 'babel', include: [\r\n      path.join(__dirname, 'app'),\r\n      path.join(__dirname, 'build-entries'),\r\n      path.join(__dirname, 'mocks'),\r\n      path.join(__dirname, 'lib'),\r\n    ]},\r\n    {test: /\\.json$/, loader: 'json'},\r\n    {test: /\\.(png|gif)$/, loader: 'url?name=[name]@[hash].[ext]&limit=5000'},\r\n    {test: /\\.(jpg|otf|woff|ttf|mp4|webm)$/, loader: 'file?name=[name]@[hash].[ext]'},\r\n    {test: /\\.styl$/, loader: cssLoader},\r\n  ],\r\n}\r\n\r\nvar resolve = {\r\n  root: root,\r\n  extensions: ['', '.js', '.jsx'],\r\n  alias: {\r\n    '#mocks': path.join(__dirname, 'mocks'),\r\n    '#lib': path.join(__dirname, 'lib'),\r\n  },\r\n}\r\n\r\nvar devServer = {\r\n  stats: {\r\n    cached: false,\r\n    exclude: excludeFromStats,\r\n  },\r\n}\r\n\r\nvar stylus = {\r\n  import: [\r\n    path.join(__dirname, 'app', 'global-styles', 'vars.styl'),\r\n  ],\r\n}\r\n\r\nmodule.exports = {\r\n  entry: entry,\r\n  output: output,\r\n  target: false ? 'node' : 'web',\r\n  module: _module,\r\n  debug: true,\r\n  bail: true,\r\n  resolve: resolve,\r\n  plugins: plugins,\r\n  devServer: devServer,\r\n  stylus: stylus,\r\n}\r\n```\r\n\r\nAny help highly appreciated!"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/webpack/webpack/issues/comments/176012909",
+        "html_url": "https://github.com/webpack/webpack/issues/1553#issuecomment-176012909",
+        "issue_url": "https://api.github.com/repos/webpack/webpack/issues/1553",
+        "id": 176012909,
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2016-01-28T06:42:14Z",
+        "updated_at": "2016-01-28T06:42:14Z",
+        "body": "Can confirm. `--progress` is the culprit. With it, a webpack build exits without any helpful information."
+      }
+    },
+    "public": true,
+    "created_at": "2016-01-28T06:42:14Z",
+    "org": {
+      "id": 2105791,
+      "login": "webpack",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/webpack",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2105791?"
+    }
+  },
+  {
+    "id": "3542234736",
+    "type": "ForkEvent",
+    "actor": {
+      "id": 2942312,
+      "login": "ncthis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncthis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2942312?"
+    },
+    "repo": {
+      "id": 40568608,
+      "name": "fcomb/redux-logger",
+      "url": "https://api.github.com/repos/fcomb/redux-logger"
+    },
+    "payload": {
+      "forkee": {
+        "id": 49935700,
+        "name": "redux-logger",
+        "full_name": "ncthis/redux-logger",
+        "owner": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "private": false,
+        "html_url": "https://github.com/ncthis/redux-logger",
+        "description": "Logger middleware for redux",
+        "fork": true,
+        "url": "https://api.github.com/repos/ncthis/redux-logger",
+        "forks_url": "https://api.github.com/repos/ncthis/redux-logger/forks",
+        "keys_url": "https://api.github.com/repos/ncthis/redux-logger/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/ncthis/redux-logger/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/ncthis/redux-logger/teams",
+        "hooks_url": "https://api.github.com/repos/ncthis/redux-logger/hooks",
+        "issue_events_url": "https://api.github.com/repos/ncthis/redux-logger/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/ncthis/redux-logger/events",
+        "assignees_url": "https://api.github.com/repos/ncthis/redux-logger/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/ncthis/redux-logger/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/ncthis/redux-logger/tags",
+        "blobs_url": "https://api.github.com/repos/ncthis/redux-logger/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/ncthis/redux-logger/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/ncthis/redux-logger/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/ncthis/redux-logger/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/ncthis/redux-logger/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/ncthis/redux-logger/languages",
+        "stargazers_url": "https://api.github.com/repos/ncthis/redux-logger/stargazers",
+        "contributors_url": "https://api.github.com/repos/ncthis/redux-logger/contributors",
+        "subscribers_url": "https://api.github.com/repos/ncthis/redux-logger/subscribers",
+        "subscription_url": "https://api.github.com/repos/ncthis/redux-logger/subscription",
+        "commits_url": "https://api.github.com/repos/ncthis/redux-logger/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/ncthis/redux-logger/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/ncthis/redux-logger/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/ncthis/redux-logger/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/ncthis/redux-logger/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/ncthis/redux-logger/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/ncthis/redux-logger/merges",
+        "archive_url": "https://api.github.com/repos/ncthis/redux-logger/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/ncthis/redux-logger/downloads",
+        "issues_url": "https://api.github.com/repos/ncthis/redux-logger/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/ncthis/redux-logger/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/ncthis/redux-logger/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/ncthis/redux-logger/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/ncthis/redux-logger/labels{/name}",
+        "releases_url": "https://api.github.com/repos/ncthis/redux-logger/releases{/id}",
+        "created_at": "2016-01-19T07:47:39Z",
+        "updated_at": "2016-01-18T22:14:50Z",
+        "pushed_at": "2016-01-09T22:10:41Z",
+        "git_url": "git://github.com/ncthis/redux-logger.git",
+        "ssh_url": "git@github.com:ncthis/redux-logger.git",
+        "clone_url": "https://github.com/ncthis/redux-logger.git",
+        "svn_url": "https://github.com/ncthis/redux-logger",
+        "homepage": "http://fcomb.github.io/redux-logger/",
+        "size": 432,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "has_issues": false,
+        "has_downloads": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "open_issues_count": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "master",
+        "public": true
+      }
+    },
+    "public": true,
+    "created_at": "2016-01-19T07:47:40Z",
+    "org": {
+      "id": 11487105,
+      "login": "fcomb",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/fcomb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11487105?"
+    }
+  },
+  {
+    "id": "3516758793",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 2942312,
+      "login": "ncthis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncthis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2942312?"
+    },
+    "repo": {
+      "id": 12601374,
+      "name": "facebook/react-devtools",
+      "url": "https://api.github.com/repos/facebook/react-devtools"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/facebook/react-devtools/pulls/comments/49406613",
+        "id": 49406613,
+        "diff_hunk": "@@ -198,10 +200,14 @@ class Store extends EventEmitter {\n   }\n \n   changeSearch(text: string): void {\n+    this.searchText = text;\n+    this.emit('searchText');\n+    this._emitSearchRootsChange(text);\n+  }\n+\n+  filterSearchRoots(text: string): void {\n     var needle = text.toLowerCase();\n-    if (needle === this.searchText.toLowerCase()) {",
+        "path": "frontend/Store.js",
+        "position": 27,
+        "original_position": 27,
+        "commit_id": "00ff7dcaf9fc613c9cc18cccb9d405fe630a3b72",
+        "original_commit_id": "00ff7dcaf9fc613c9cc18cccb9d405fe630a3b72",
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "Understood. Will change that.",
+        "created_at": "2016-01-12T01:46:29Z",
+        "updated_at": "2016-01-12T01:46:29Z",
+        "html_url": "https://github.com/facebook/react-devtools/pull/311#discussion_r49406613",
+        "pull_request_url": "https://api.github.com/repos/facebook/react-devtools/pulls/311",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/comments/49406613"
+          },
+          "html": {
+            "href": "https://github.com/facebook/react-devtools/pull/311#discussion_r49406613"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/311"
+          }
+        }
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/facebook/react-devtools/pulls/311",
+        "id": 55593915,
+        "html_url": "https://github.com/facebook/react-devtools/pull/311",
+        "diff_url": "https://github.com/facebook/react-devtools/pull/311.diff",
+        "patch_url": "https://github.com/facebook/react-devtools/pull/311.patch",
+        "issue_url": "https://api.github.com/repos/facebook/react-devtools/issues/311",
+        "number": 311,
+        "state": "open",
+        "locked": false,
+        "title": "Debouncing search text change",
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "When using the search box in devtools, if my keystrokes are too quick, then they are dropped. For an example, typing \"Table\" would amount to:\r\n\r\n![image](https://dl.dropboxusercontent.com/u/3240167/devtools.gif)\r\n\r\nTherefore, I propose that the `onChangeSearch` function be `debounce`d.",
+        "created_at": "2016-01-11T07:49:11Z",
+        "updated_at": "2016-01-12T01:46:29Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": "4c890e27bc469b222930e370b1cb6c7dd4090a13",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/facebook/react-devtools/pulls/311/commits",
+        "review_comments_url": "https://api.github.com/repos/facebook/react-devtools/pulls/311/comments",
+        "review_comment_url": "https://api.github.com/repos/facebook/react-devtools/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/comments",
+        "statuses_url": "https://api.github.com/repos/facebook/react-devtools/statuses/00ff7dcaf9fc613c9cc18cccb9d405fe630a3b72",
+        "head": {
+          "label": "ncthis:master",
+          "ref": "master",
+          "sha": "00ff7dcaf9fc613c9cc18cccb9d405fe630a3b72",
+          "user": {
+            "login": "ncthis",
+            "id": 2942312,
+            "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ncthis",
+            "html_url": "https://github.com/ncthis",
+            "followers_url": "https://api.github.com/users/ncthis/followers",
+            "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+            "organizations_url": "https://api.github.com/users/ncthis/orgs",
+            "repos_url": "https://api.github.com/users/ncthis/repos",
+            "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ncthis/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 49406651,
+            "name": "react-devtools",
+            "full_name": "ncthis/react-devtools",
+            "owner": {
+              "login": "ncthis",
+              "id": 2942312,
+              "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/ncthis",
+              "html_url": "https://github.com/ncthis",
+              "followers_url": "https://api.github.com/users/ncthis/followers",
+              "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+              "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+              "organizations_url": "https://api.github.com/users/ncthis/orgs",
+              "repos_url": "https://api.github.com/users/ncthis/repos",
+              "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/ncthis/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/ncthis/react-devtools",
+            "description": "An extension that allows inspection of React component hierarchy in Chrome Developer Tools.",
+            "fork": true,
+            "url": "https://api.github.com/repos/ncthis/react-devtools",
+            "forks_url": "https://api.github.com/repos/ncthis/react-devtools/forks",
+            "keys_url": "https://api.github.com/repos/ncthis/react-devtools/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/ncthis/react-devtools/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/ncthis/react-devtools/teams",
+            "hooks_url": "https://api.github.com/repos/ncthis/react-devtools/hooks",
+            "issue_events_url": "https://api.github.com/repos/ncthis/react-devtools/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/ncthis/react-devtools/events",
+            "assignees_url": "https://api.github.com/repos/ncthis/react-devtools/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/ncthis/react-devtools/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/ncthis/react-devtools/tags",
+            "blobs_url": "https://api.github.com/repos/ncthis/react-devtools/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/ncthis/react-devtools/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/ncthis/react-devtools/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/ncthis/react-devtools/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/ncthis/react-devtools/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/ncthis/react-devtools/languages",
+            "stargazers_url": "https://api.github.com/repos/ncthis/react-devtools/stargazers",
+            "contributors_url": "https://api.github.com/repos/ncthis/react-devtools/contributors",
+            "subscribers_url": "https://api.github.com/repos/ncthis/react-devtools/subscribers",
+            "subscription_url": "https://api.github.com/repos/ncthis/react-devtools/subscription",
+            "commits_url": "https://api.github.com/repos/ncthis/react-devtools/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/ncthis/react-devtools/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/ncthis/react-devtools/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/ncthis/react-devtools/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/ncthis/react-devtools/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/ncthis/react-devtools/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/ncthis/react-devtools/merges",
+            "archive_url": "https://api.github.com/repos/ncthis/react-devtools/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/ncthis/react-devtools/downloads",
+            "issues_url": "https://api.github.com/repos/ncthis/react-devtools/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/ncthis/react-devtools/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/ncthis/react-devtools/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/ncthis/react-devtools/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/ncthis/react-devtools/labels{/name}",
+            "releases_url": "https://api.github.com/repos/ncthis/react-devtools/releases{/id}",
+            "created_at": "2016-01-11T06:25:31Z",
+            "updated_at": "2016-01-11T06:25:32Z",
+            "pushed_at": "2016-01-12T01:18:14Z",
+            "git_url": "git://github.com/ncthis/react-devtools.git",
+            "ssh_url": "git@github.com:ncthis/react-devtools.git",
+            "clone_url": "https://github.com/ncthis/react-devtools.git",
+            "svn_url": "https://github.com/ncthis/react-devtools",
+            "homepage": "",
+            "size": 7684,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": false,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "facebook:master",
+          "ref": "master",
+          "sha": "68a71d3d9e5bf982ced63a960437a53f789be64c",
+          "user": {
+            "login": "facebook",
+            "id": 69631,
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/facebook",
+            "html_url": "https://github.com/facebook",
+            "followers_url": "https://api.github.com/users/facebook/followers",
+            "following_url": "https://api.github.com/users/facebook/following{/other_user}",
+            "gists_url": "https://api.github.com/users/facebook/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/facebook/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/facebook/subscriptions",
+            "organizations_url": "https://api.github.com/users/facebook/orgs",
+            "repos_url": "https://api.github.com/users/facebook/repos",
+            "events_url": "https://api.github.com/users/facebook/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/facebook/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 12601374,
+            "name": "react-devtools",
+            "full_name": "facebook/react-devtools",
+            "owner": {
+              "login": "facebook",
+              "id": 69631,
+              "avatar_url": "https://avatars.githubusercontent.com/u/69631?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/facebook",
+              "html_url": "https://github.com/facebook",
+              "followers_url": "https://api.github.com/users/facebook/followers",
+              "following_url": "https://api.github.com/users/facebook/following{/other_user}",
+              "gists_url": "https://api.github.com/users/facebook/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/facebook/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/facebook/subscriptions",
+              "organizations_url": "https://api.github.com/users/facebook/orgs",
+              "repos_url": "https://api.github.com/users/facebook/repos",
+              "events_url": "https://api.github.com/users/facebook/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/facebook/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/facebook/react-devtools",
+            "description": "An extension that allows inspection of React component hierarchy in Chrome Developer Tools.",
+            "fork": false,
+            "url": "https://api.github.com/repos/facebook/react-devtools",
+            "forks_url": "https://api.github.com/repos/facebook/react-devtools/forks",
+            "keys_url": "https://api.github.com/repos/facebook/react-devtools/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/facebook/react-devtools/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/facebook/react-devtools/teams",
+            "hooks_url": "https://api.github.com/repos/facebook/react-devtools/hooks",
+            "issue_events_url": "https://api.github.com/repos/facebook/react-devtools/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/facebook/react-devtools/events",
+            "assignees_url": "https://api.github.com/repos/facebook/react-devtools/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/facebook/react-devtools/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/facebook/react-devtools/tags",
+            "blobs_url": "https://api.github.com/repos/facebook/react-devtools/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/facebook/react-devtools/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/facebook/react-devtools/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/facebook/react-devtools/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/facebook/react-devtools/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/facebook/react-devtools/languages",
+            "stargazers_url": "https://api.github.com/repos/facebook/react-devtools/stargazers",
+            "contributors_url": "https://api.github.com/repos/facebook/react-devtools/contributors",
+            "subscribers_url": "https://api.github.com/repos/facebook/react-devtools/subscribers",
+            "subscription_url": "https://api.github.com/repos/facebook/react-devtools/subscription",
+            "commits_url": "https://api.github.com/repos/facebook/react-devtools/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/facebook/react-devtools/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/facebook/react-devtools/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/facebook/react-devtools/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/facebook/react-devtools/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/facebook/react-devtools/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/facebook/react-devtools/merges",
+            "archive_url": "https://api.github.com/repos/facebook/react-devtools/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/facebook/react-devtools/downloads",
+            "issues_url": "https://api.github.com/repos/facebook/react-devtools/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/facebook/react-devtools/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/facebook/react-devtools/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/facebook/react-devtools/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/facebook/react-devtools/labels{/name}",
+            "releases_url": "https://api.github.com/repos/facebook/react-devtools/releases{/id}",
+            "created_at": "2013-09-04T20:28:43Z",
+            "updated_at": "2016-01-11T23:53:42Z",
+            "pushed_at": "2016-01-12T01:18:15Z",
+            "git_url": "git://github.com/facebook/react-devtools.git",
+            "ssh_url": "git@github.com:facebook/react-devtools.git",
+            "clone_url": "https://github.com/facebook/react-devtools.git",
+            "svn_url": "https://github.com/facebook/react-devtools",
+            "homepage": "",
+            "size": 63385,
+            "stargazers_count": 1923,
+            "watchers_count": 1923,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 193,
+            "mirror_url": null,
+            "open_issues_count": 61,
+            "forks": 193,
+            "open_issues": 61,
+            "watchers": 1923,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/311"
+          },
+          "html": {
+            "href": "https://github.com/facebook/react-devtools/pull/311"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/issues/311"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/issues/311/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/311/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/311/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/statuses/00ff7dcaf9fc613c9cc18cccb9d405fe630a3b72"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2016-01-12T01:46:29Z",
+    "org": {
+      "id": 69631,
+      "login": "facebook",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/facebook",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+    }
+  },
+  {
+    "id": "3516747353",
+    "type": "PullRequestReviewCommentEvent",
+    "actor": {
+      "id": 2942312,
+      "login": "ncthis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncthis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2942312?"
+    },
+    "repo": {
+      "id": 12601374,
+      "name": "facebook/react-devtools",
+      "url": "https://api.github.com/repos/facebook/react-devtools"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "url": "https://api.github.com/repos/facebook/react-devtools/pulls/comments/49406263",
+        "id": 49406263,
+        "diff_hunk": "@@ -198,10 +200,14 @@ class Store extends EventEmitter {\n   }\n \n   changeSearch(text: string): void {\n+    this.searchText = text;\n+    this.emit('searchText');\n+    this._emitSearchRootsChange(text);\n+  }\n+\n+  filterSearchRoots(text: string): void {\n     var needle = text.toLowerCase();\n-    if (needle === this.searchText.toLowerCase()) {",
+        "path": "frontend/Store.js",
+        "position": 27,
+        "original_position": 27,
+        "commit_id": "00ff7dcaf9fc613c9cc18cccb9d405fe630a3b72",
+        "original_commit_id": "00ff7dcaf9fc613c9cc18cccb9d405fe630a3b72",
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "By the time it hits this line, `this.searchText` is guaranteed to be updated. Therefore `needle` will always be equal to `this.searchText`.",
+        "created_at": "2016-01-12T01:41:37Z",
+        "updated_at": "2016-01-12T01:41:37Z",
+        "html_url": "https://github.com/facebook/react-devtools/pull/311#discussion_r49406263",
+        "pull_request_url": "https://api.github.com/repos/facebook/react-devtools/pulls/311",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/comments/49406263"
+          },
+          "html": {
+            "href": "https://github.com/facebook/react-devtools/pull/311#discussion_r49406263"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/311"
+          }
+        }
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/facebook/react-devtools/pulls/311",
+        "id": 55593915,
+        "html_url": "https://github.com/facebook/react-devtools/pull/311",
+        "diff_url": "https://github.com/facebook/react-devtools/pull/311.diff",
+        "patch_url": "https://github.com/facebook/react-devtools/pull/311.patch",
+        "issue_url": "https://api.github.com/repos/facebook/react-devtools/issues/311",
+        "number": 311,
+        "state": "open",
+        "locked": false,
+        "title": "Debouncing search text change",
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "When using the search box in devtools, if my keystrokes are too quick, then they are dropped. For an example, typing \"Table\" would amount to:\r\n\r\n![image](https://dl.dropboxusercontent.com/u/3240167/devtools.gif)\r\n\r\nTherefore, I propose that the `onChangeSearch` function be `debounce`d.",
+        "created_at": "2016-01-11T07:49:11Z",
+        "updated_at": "2016-01-12T01:41:37Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": "4c890e27bc469b222930e370b1cb6c7dd4090a13",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/facebook/react-devtools/pulls/311/commits",
+        "review_comments_url": "https://api.github.com/repos/facebook/react-devtools/pulls/311/comments",
+        "review_comment_url": "https://api.github.com/repos/facebook/react-devtools/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/comments",
+        "statuses_url": "https://api.github.com/repos/facebook/react-devtools/statuses/00ff7dcaf9fc613c9cc18cccb9d405fe630a3b72",
+        "head": {
+          "label": "ncthis:master",
+          "ref": "master",
+          "sha": "00ff7dcaf9fc613c9cc18cccb9d405fe630a3b72",
+          "user": {
+            "login": "ncthis",
+            "id": 2942312,
+            "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ncthis",
+            "html_url": "https://github.com/ncthis",
+            "followers_url": "https://api.github.com/users/ncthis/followers",
+            "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+            "organizations_url": "https://api.github.com/users/ncthis/orgs",
+            "repos_url": "https://api.github.com/users/ncthis/repos",
+            "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ncthis/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 49406651,
+            "name": "react-devtools",
+            "full_name": "ncthis/react-devtools",
+            "owner": {
+              "login": "ncthis",
+              "id": 2942312,
+              "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/ncthis",
+              "html_url": "https://github.com/ncthis",
+              "followers_url": "https://api.github.com/users/ncthis/followers",
+              "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+              "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+              "organizations_url": "https://api.github.com/users/ncthis/orgs",
+              "repos_url": "https://api.github.com/users/ncthis/repos",
+              "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/ncthis/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/ncthis/react-devtools",
+            "description": "An extension that allows inspection of React component hierarchy in Chrome Developer Tools.",
+            "fork": true,
+            "url": "https://api.github.com/repos/ncthis/react-devtools",
+            "forks_url": "https://api.github.com/repos/ncthis/react-devtools/forks",
+            "keys_url": "https://api.github.com/repos/ncthis/react-devtools/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/ncthis/react-devtools/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/ncthis/react-devtools/teams",
+            "hooks_url": "https://api.github.com/repos/ncthis/react-devtools/hooks",
+            "issue_events_url": "https://api.github.com/repos/ncthis/react-devtools/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/ncthis/react-devtools/events",
+            "assignees_url": "https://api.github.com/repos/ncthis/react-devtools/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/ncthis/react-devtools/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/ncthis/react-devtools/tags",
+            "blobs_url": "https://api.github.com/repos/ncthis/react-devtools/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/ncthis/react-devtools/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/ncthis/react-devtools/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/ncthis/react-devtools/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/ncthis/react-devtools/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/ncthis/react-devtools/languages",
+            "stargazers_url": "https://api.github.com/repos/ncthis/react-devtools/stargazers",
+            "contributors_url": "https://api.github.com/repos/ncthis/react-devtools/contributors",
+            "subscribers_url": "https://api.github.com/repos/ncthis/react-devtools/subscribers",
+            "subscription_url": "https://api.github.com/repos/ncthis/react-devtools/subscription",
+            "commits_url": "https://api.github.com/repos/ncthis/react-devtools/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/ncthis/react-devtools/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/ncthis/react-devtools/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/ncthis/react-devtools/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/ncthis/react-devtools/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/ncthis/react-devtools/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/ncthis/react-devtools/merges",
+            "archive_url": "https://api.github.com/repos/ncthis/react-devtools/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/ncthis/react-devtools/downloads",
+            "issues_url": "https://api.github.com/repos/ncthis/react-devtools/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/ncthis/react-devtools/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/ncthis/react-devtools/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/ncthis/react-devtools/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/ncthis/react-devtools/labels{/name}",
+            "releases_url": "https://api.github.com/repos/ncthis/react-devtools/releases{/id}",
+            "created_at": "2016-01-11T06:25:31Z",
+            "updated_at": "2016-01-11T06:25:32Z",
+            "pushed_at": "2016-01-12T01:18:14Z",
+            "git_url": "git://github.com/ncthis/react-devtools.git",
+            "ssh_url": "git@github.com:ncthis/react-devtools.git",
+            "clone_url": "https://github.com/ncthis/react-devtools.git",
+            "svn_url": "https://github.com/ncthis/react-devtools",
+            "homepage": "",
+            "size": 7684,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": false,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "facebook:master",
+          "ref": "master",
+          "sha": "68a71d3d9e5bf982ced63a960437a53f789be64c",
+          "user": {
+            "login": "facebook",
+            "id": 69631,
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/facebook",
+            "html_url": "https://github.com/facebook",
+            "followers_url": "https://api.github.com/users/facebook/followers",
+            "following_url": "https://api.github.com/users/facebook/following{/other_user}",
+            "gists_url": "https://api.github.com/users/facebook/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/facebook/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/facebook/subscriptions",
+            "organizations_url": "https://api.github.com/users/facebook/orgs",
+            "repos_url": "https://api.github.com/users/facebook/repos",
+            "events_url": "https://api.github.com/users/facebook/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/facebook/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 12601374,
+            "name": "react-devtools",
+            "full_name": "facebook/react-devtools",
+            "owner": {
+              "login": "facebook",
+              "id": 69631,
+              "avatar_url": "https://avatars.githubusercontent.com/u/69631?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/facebook",
+              "html_url": "https://github.com/facebook",
+              "followers_url": "https://api.github.com/users/facebook/followers",
+              "following_url": "https://api.github.com/users/facebook/following{/other_user}",
+              "gists_url": "https://api.github.com/users/facebook/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/facebook/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/facebook/subscriptions",
+              "organizations_url": "https://api.github.com/users/facebook/orgs",
+              "repos_url": "https://api.github.com/users/facebook/repos",
+              "events_url": "https://api.github.com/users/facebook/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/facebook/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/facebook/react-devtools",
+            "description": "An extension that allows inspection of React component hierarchy in Chrome Developer Tools.",
+            "fork": false,
+            "url": "https://api.github.com/repos/facebook/react-devtools",
+            "forks_url": "https://api.github.com/repos/facebook/react-devtools/forks",
+            "keys_url": "https://api.github.com/repos/facebook/react-devtools/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/facebook/react-devtools/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/facebook/react-devtools/teams",
+            "hooks_url": "https://api.github.com/repos/facebook/react-devtools/hooks",
+            "issue_events_url": "https://api.github.com/repos/facebook/react-devtools/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/facebook/react-devtools/events",
+            "assignees_url": "https://api.github.com/repos/facebook/react-devtools/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/facebook/react-devtools/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/facebook/react-devtools/tags",
+            "blobs_url": "https://api.github.com/repos/facebook/react-devtools/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/facebook/react-devtools/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/facebook/react-devtools/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/facebook/react-devtools/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/facebook/react-devtools/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/facebook/react-devtools/languages",
+            "stargazers_url": "https://api.github.com/repos/facebook/react-devtools/stargazers",
+            "contributors_url": "https://api.github.com/repos/facebook/react-devtools/contributors",
+            "subscribers_url": "https://api.github.com/repos/facebook/react-devtools/subscribers",
+            "subscription_url": "https://api.github.com/repos/facebook/react-devtools/subscription",
+            "commits_url": "https://api.github.com/repos/facebook/react-devtools/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/facebook/react-devtools/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/facebook/react-devtools/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/facebook/react-devtools/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/facebook/react-devtools/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/facebook/react-devtools/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/facebook/react-devtools/merges",
+            "archive_url": "https://api.github.com/repos/facebook/react-devtools/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/facebook/react-devtools/downloads",
+            "issues_url": "https://api.github.com/repos/facebook/react-devtools/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/facebook/react-devtools/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/facebook/react-devtools/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/facebook/react-devtools/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/facebook/react-devtools/labels{/name}",
+            "releases_url": "https://api.github.com/repos/facebook/react-devtools/releases{/id}",
+            "created_at": "2013-09-04T20:28:43Z",
+            "updated_at": "2016-01-11T23:53:42Z",
+            "pushed_at": "2016-01-12T01:18:15Z",
+            "git_url": "git://github.com/facebook/react-devtools.git",
+            "ssh_url": "git@github.com:facebook/react-devtools.git",
+            "clone_url": "https://github.com/facebook/react-devtools.git",
+            "svn_url": "https://github.com/facebook/react-devtools",
+            "homepage": "",
+            "size": 63385,
+            "stargazers_count": 1923,
+            "watchers_count": 1923,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 193,
+            "mirror_url": null,
+            "open_issues_count": 61,
+            "forks": 193,
+            "open_issues": 61,
+            "watchers": 1923,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/311"
+          },
+          "html": {
+            "href": "https://github.com/facebook/react-devtools/pull/311"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/issues/311"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/issues/311/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/311/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/311/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/statuses/00ff7dcaf9fc613c9cc18cccb9d405fe630a3b72"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2016-01-12T01:41:37Z",
+    "org": {
+      "id": 69631,
+      "login": "facebook",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/facebook",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+    }
+  },
+  {
+    "id": "3516694124",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 2942312,
+      "login": "ncthis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncthis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2942312?"
+    },
+    "repo": {
+      "id": 12601374,
+      "name": "facebook/react-devtools",
+      "url": "https://api.github.com/repos/facebook/react-devtools"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/facebook/react-devtools/issues/311",
+        "labels_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/labels{/name}",
+        "comments_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/comments",
+        "events_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/events",
+        "html_url": "https://github.com/facebook/react-devtools/pull/311",
+        "id": 125889449,
+        "number": 311,
+        "title": "Debouncing search text change",
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/facebook/react-devtools/labels/CLA%20Signed",
+            "name": "CLA Signed",
+            "color": "cccccc"
+          },
+          {
+            "url": "https://api.github.com/repos/facebook/react-devtools/labels/GH%20Review:%20needs-revision",
+            "name": "GH Review: needs-revision",
+            "color": "e11d21"
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 9,
+        "created_at": "2016-01-11T07:49:11Z",
+        "updated_at": "2016-01-12T01:19:28Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/facebook/react-devtools/pulls/311",
+          "html_url": "https://github.com/facebook/react-devtools/pull/311",
+          "diff_url": "https://github.com/facebook/react-devtools/pull/311.diff",
+          "patch_url": "https://github.com/facebook/react-devtools/pull/311.patch"
+        },
+        "body": "When using the search box in devtools, if my keystrokes are too quick, then they are dropped. For an example, typing \"Table\" would amount to:\r\n\r\n![image](https://dl.dropboxusercontent.com/u/3240167/devtools.gif)\r\n\r\nTherefore, I propose that the `onChangeSearch` function be `debounce`d."
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/facebook/react-devtools/issues/comments/170750309",
+        "html_url": "https://github.com/facebook/react-devtools/pull/311#issuecomment-170750309",
+        "issue_url": "https://api.github.com/repos/facebook/react-devtools/issues/311",
+        "id": 170750309,
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2016-01-12T01:19:28Z",
+        "updated_at": "2016-01-12T01:19:28Z",
+        "body": "I have changed the implementation to debounce at store, before filtering and after `emit`ting `searchText`. This improves the situation greatly. \r\n\r\nBut for superhuman typing speeds, still, there remains a problem. And, it's to do with the `emit` function's `setTimeout`.\r\n```js\r\nsetTimeout(() => {\r\n        this._eventQueue.forEach(evt => {\r\n          EventEmitter.prototype.emit.call(this, evt);\r\n        });\r\n        this._eventQueue = [];\r\n        this._eventTimer = null;\r\n}, 50);\r\n```\r\n\r\nBasically, when keystrokes happen in between that 50ms, they tend to be lost. (Because store state had not changed and the changed value has not propagated to the component through `props`). You can verify this if you try typing \"asdf\" really fast, and note the missing key(s). If you move the timeout to a lower value, it progressively becomes better.\r\n\r\nI know this would hardly ever make an impact for the vast majority of users, but I'm just noting it here because it impacts what I set out to do. If a solution for this can be recommended, I'd be more than happy to work on it as well."
+      }
+    },
+    "public": true,
+    "created_at": "2016-01-12T01:19:28Z",
+    "org": {
+      "id": 69631,
+      "login": "facebook",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/facebook",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+    }
+  },
+  {
+    "id": "3516691089",
+    "type": "PushEvent",
+    "actor": {
+      "id": 2942312,
+      "login": "ncthis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncthis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2942312?"
+    },
+    "repo": {
+      "id": 49406651,
+      "name": "ncthis/react-devtools",
+      "url": "https://api.github.com/repos/ncthis/react-devtools"
+    },
+    "payload": {
+      "push_id": 930967294,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "00ff7dcaf9fc613c9cc18cccb9d405fe630a3b72",
+      "before": "c4e0a9fe0037d0b123a0c9ad14dd5dfd59bb39b9",
+      "commits": [
+        {
+          "sha": "00ff7dcaf9fc613c9cc18cccb9d405fe630a3b72",
+          "author": {
+            "email": "nadeesha.cabral@gmail.com",
+            "name": "Nadeesha Cabral"
+          },
+          "message": "Debouncing search text change\nDebouncing search text change\n\nReverting SearchPane.js to 7b6d7626d8e3dae2b266b71bd53147697ca92384\n\nDebounce filtering results",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/00ff7dcaf9fc613c9cc18cccb9d405fe630a3b72"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-01-12T01:18:15Z"
+  },
+  {
+    "id": "3514894458",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 2942312,
+      "login": "ncthis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncthis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2942312?"
+    },
+    "repo": {
+      "id": 12601374,
+      "name": "facebook/react-devtools",
+      "url": "https://api.github.com/repos/facebook/react-devtools"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/facebook/react-devtools/issues/311",
+        "labels_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/labels{/name}",
+        "comments_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/comments",
+        "events_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/events",
+        "html_url": "https://github.com/facebook/react-devtools/pull/311",
+        "id": 125889449,
+        "number": 311,
+        "title": "Debouncing search text change",
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/facebook/react-devtools/labels/CLA%20Signed",
+            "name": "CLA Signed",
+            "color": "cccccc"
+          },
+          {
+            "url": "https://api.github.com/repos/facebook/react-devtools/labels/GH%20Review:%20needs-revision",
+            "name": "GH Review: needs-revision",
+            "color": "e11d21"
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 8,
+        "created_at": "2016-01-11T07:49:11Z",
+        "updated_at": "2016-01-11T17:05:48Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/facebook/react-devtools/pulls/311",
+          "html_url": "https://github.com/facebook/react-devtools/pull/311",
+          "diff_url": "https://github.com/facebook/react-devtools/pull/311.diff",
+          "patch_url": "https://github.com/facebook/react-devtools/pull/311.patch"
+        },
+        "body": "When using the search box in devtools, if my keystrokes are too quick, then they are dropped. For an example, typing \"Table\" would amount to:\r\n\r\n![image](https://dl.dropboxusercontent.com/u/3240167/devtools.gif)\r\n\r\nTherefore, I propose that the `onChangeSearch` function be `debounce`d."
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/facebook/react-devtools/issues/comments/170619611",
+        "html_url": "https://github.com/facebook/react-devtools/pull/311#issuecomment-170619611",
+        "issue_url": "https://api.github.com/repos/facebook/react-devtools/issues/311",
+        "id": 170619611,
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2016-01-11T17:05:48Z",
+        "updated_at": "2016-01-11T17:05:48Z",
+        "body": "Ok, will look into it.\n\nOn Mon, Jan 11, 2016 at 22:34 Jared Forsyth <notifications@github.com>\nwrote:\n\n> oh good call. yeah, we need the debouncing at the place that we filter\n> things\n>\n> —\n> Reply to this email directly or view it on GitHub\n> <https://github.com/facebook/react-devtools/pull/311#issuecomment-170618410>\n> .\n>\n-- \n- Nadeesha\n"
+      }
+    },
+    "public": true,
+    "created_at": "2016-01-11T17:05:49Z",
+    "org": {
+      "id": 69631,
+      "login": "facebook",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/facebook",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+    }
+  },
+  {
+    "id": "3514645638",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 2942312,
+      "login": "ncthis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncthis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2942312?"
+    },
+    "repo": {
+      "id": 12601374,
+      "name": "facebook/react-devtools",
+      "url": "https://api.github.com/repos/facebook/react-devtools"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/facebook/react-devtools/issues/311",
+        "labels_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/labels{/name}",
+        "comments_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/comments",
+        "events_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/events",
+        "html_url": "https://github.com/facebook/react-devtools/pull/311",
+        "id": 125889449,
+        "number": 311,
+        "title": "Debouncing search text change",
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/facebook/react-devtools/labels/CLA%20Signed",
+            "name": "CLA Signed",
+            "color": "cccccc"
+          },
+          {
+            "url": "https://api.github.com/repos/facebook/react-devtools/labels/GH%20Review:%20accepted",
+            "name": "GH Review: accepted",
+            "color": "009800"
+          }
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 5,
+        "created_at": "2016-01-11T07:49:11Z",
+        "updated_at": "2016-01-11T16:11:17Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/facebook/react-devtools/pulls/311",
+          "html_url": "https://github.com/facebook/react-devtools/pull/311",
+          "diff_url": "https://github.com/facebook/react-devtools/pull/311.diff",
+          "patch_url": "https://github.com/facebook/react-devtools/pull/311.patch"
+        },
+        "body": "When using the search box in devtools, if my keystrokes are too quick, then they are dropped. For an example, typing \"Table\" would amount to:\r\n\r\n![image](https://dl.dropboxusercontent.com/u/3240167/devtools.gif)\r\n\r\nTherefore, I propose that the `onChangeSearch` function be `debounce`d."
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/facebook/react-devtools/issues/comments/170599240",
+        "html_url": "https://github.com/facebook/react-devtools/pull/311#issuecomment-170599240",
+        "issue_url": "https://api.github.com/repos/facebook/react-devtools/issues/311",
+        "id": 170599240,
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2016-01-11T16:11:17Z",
+        "updated_at": "2016-01-11T16:11:17Z",
+        "body": "@jaredly Sounds good. I've reduced it to 100. Thanks for the review!"
+      }
+    },
+    "public": true,
+    "created_at": "2016-01-11T16:11:17Z",
+    "org": {
+      "id": 69631,
+      "login": "facebook",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/facebook",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+    }
+  },
+  {
+    "id": "3514642630",
+    "type": "PushEvent",
+    "actor": {
+      "id": 2942312,
+      "login": "ncthis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncthis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2942312?"
+    },
+    "repo": {
+      "id": 49406651,
+      "name": "ncthis/react-devtools",
+      "url": "https://api.github.com/repos/ncthis/react-devtools"
+    },
+    "payload": {
+      "push_id": 930262915,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "c4e0a9fe0037d0b123a0c9ad14dd5dfd59bb39b9",
+      "before": "2460c411ea54dc0fb9e3d749e84046b9c815d798",
+      "commits": [
+        {
+          "sha": "c4e0a9fe0037d0b123a0c9ad14dd5dfd59bb39b9",
+          "author": {
+            "email": "nadeesha.cabral@gmail.com",
+            "name": "Nadeesha Cabral"
+          },
+          "message": "Debouncing search text change",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/c4e0a9fe0037d0b123a0c9ad14dd5dfd59bb39b9"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-01-11T16:10:37Z"
+  },
+  {
+    "id": "3513026513",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 2942312,
+      "login": "ncthis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncthis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2942312?"
+    },
+    "repo": {
+      "id": 12601374,
+      "name": "facebook/react-devtools",
+      "url": "https://api.github.com/repos/facebook/react-devtools"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 311,
+      "pull_request": {
+        "url": "https://api.github.com/repos/facebook/react-devtools/pulls/311",
+        "id": 55593915,
+        "html_url": "https://github.com/facebook/react-devtools/pull/311",
+        "diff_url": "https://github.com/facebook/react-devtools/pull/311.diff",
+        "patch_url": "https://github.com/facebook/react-devtools/pull/311.patch",
+        "issue_url": "https://api.github.com/repos/facebook/react-devtools/issues/311",
+        "number": 311,
+        "state": "open",
+        "locked": false,
+        "title": "Debouncing search text change",
+        "user": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "When using the search box in devtools, if my keystrokes are too quick, then they are dropped. For an example, typing \"Table\" would amount to:\r\n\r\n![image](https://dl.dropboxusercontent.com/u/3240167/devtools.gif)\r\n\r\nTherefore, I propose that the `onChangeSearch` function be `debounce`d.",
+        "created_at": "2016-01-11T07:49:11Z",
+        "updated_at": "2016-01-11T07:49:11Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/facebook/react-devtools/pulls/311/commits",
+        "review_comments_url": "https://api.github.com/repos/facebook/react-devtools/pulls/311/comments",
+        "review_comment_url": "https://api.github.com/repos/facebook/react-devtools/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/facebook/react-devtools/issues/311/comments",
+        "statuses_url": "https://api.github.com/repos/facebook/react-devtools/statuses/2460c411ea54dc0fb9e3d749e84046b9c815d798",
+        "head": {
+          "label": "ncthis:master",
+          "ref": "master",
+          "sha": "2460c411ea54dc0fb9e3d749e84046b9c815d798",
+          "user": {
+            "login": "ncthis",
+            "id": 2942312,
+            "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ncthis",
+            "html_url": "https://github.com/ncthis",
+            "followers_url": "https://api.github.com/users/ncthis/followers",
+            "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+            "organizations_url": "https://api.github.com/users/ncthis/orgs",
+            "repos_url": "https://api.github.com/users/ncthis/repos",
+            "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ncthis/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 49406651,
+            "name": "react-devtools",
+            "full_name": "ncthis/react-devtools",
+            "owner": {
+              "login": "ncthis",
+              "id": 2942312,
+              "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/ncthis",
+              "html_url": "https://github.com/ncthis",
+              "followers_url": "https://api.github.com/users/ncthis/followers",
+              "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+              "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+              "organizations_url": "https://api.github.com/users/ncthis/orgs",
+              "repos_url": "https://api.github.com/users/ncthis/repos",
+              "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/ncthis/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/ncthis/react-devtools",
+            "description": "An extension that allows inspection of React component hierarchy in Chrome Developer Tools.",
+            "fork": true,
+            "url": "https://api.github.com/repos/ncthis/react-devtools",
+            "forks_url": "https://api.github.com/repos/ncthis/react-devtools/forks",
+            "keys_url": "https://api.github.com/repos/ncthis/react-devtools/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/ncthis/react-devtools/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/ncthis/react-devtools/teams",
+            "hooks_url": "https://api.github.com/repos/ncthis/react-devtools/hooks",
+            "issue_events_url": "https://api.github.com/repos/ncthis/react-devtools/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/ncthis/react-devtools/events",
+            "assignees_url": "https://api.github.com/repos/ncthis/react-devtools/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/ncthis/react-devtools/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/ncthis/react-devtools/tags",
+            "blobs_url": "https://api.github.com/repos/ncthis/react-devtools/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/ncthis/react-devtools/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/ncthis/react-devtools/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/ncthis/react-devtools/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/ncthis/react-devtools/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/ncthis/react-devtools/languages",
+            "stargazers_url": "https://api.github.com/repos/ncthis/react-devtools/stargazers",
+            "contributors_url": "https://api.github.com/repos/ncthis/react-devtools/contributors",
+            "subscribers_url": "https://api.github.com/repos/ncthis/react-devtools/subscribers",
+            "subscription_url": "https://api.github.com/repos/ncthis/react-devtools/subscription",
+            "commits_url": "https://api.github.com/repos/ncthis/react-devtools/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/ncthis/react-devtools/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/ncthis/react-devtools/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/ncthis/react-devtools/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/ncthis/react-devtools/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/ncthis/react-devtools/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/ncthis/react-devtools/merges",
+            "archive_url": "https://api.github.com/repos/ncthis/react-devtools/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/ncthis/react-devtools/downloads",
+            "issues_url": "https://api.github.com/repos/ncthis/react-devtools/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/ncthis/react-devtools/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/ncthis/react-devtools/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/ncthis/react-devtools/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/ncthis/react-devtools/labels{/name}",
+            "releases_url": "https://api.github.com/repos/ncthis/react-devtools/releases{/id}",
+            "created_at": "2016-01-11T06:25:31Z",
+            "updated_at": "2016-01-11T06:25:32Z",
+            "pushed_at": "2016-01-11T07:42:13Z",
+            "git_url": "git://github.com/ncthis/react-devtools.git",
+            "ssh_url": "git@github.com:ncthis/react-devtools.git",
+            "clone_url": "https://github.com/ncthis/react-devtools.git",
+            "svn_url": "https://github.com/ncthis/react-devtools",
+            "homepage": "",
+            "size": 7684,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "JavaScript",
+            "has_issues": false,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "facebook:master",
+          "ref": "master",
+          "sha": "68a71d3d9e5bf982ced63a960437a53f789be64c",
+          "user": {
+            "login": "facebook",
+            "id": 69631,
+            "avatar_url": "https://avatars.githubusercontent.com/u/69631?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/facebook",
+            "html_url": "https://github.com/facebook",
+            "followers_url": "https://api.github.com/users/facebook/followers",
+            "following_url": "https://api.github.com/users/facebook/following{/other_user}",
+            "gists_url": "https://api.github.com/users/facebook/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/facebook/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/facebook/subscriptions",
+            "organizations_url": "https://api.github.com/users/facebook/orgs",
+            "repos_url": "https://api.github.com/users/facebook/repos",
+            "events_url": "https://api.github.com/users/facebook/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/facebook/received_events",
+            "type": "Organization",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 12601374,
+            "name": "react-devtools",
+            "full_name": "facebook/react-devtools",
+            "owner": {
+              "login": "facebook",
+              "id": 69631,
+              "avatar_url": "https://avatars.githubusercontent.com/u/69631?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/facebook",
+              "html_url": "https://github.com/facebook",
+              "followers_url": "https://api.github.com/users/facebook/followers",
+              "following_url": "https://api.github.com/users/facebook/following{/other_user}",
+              "gists_url": "https://api.github.com/users/facebook/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/facebook/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/facebook/subscriptions",
+              "organizations_url": "https://api.github.com/users/facebook/orgs",
+              "repos_url": "https://api.github.com/users/facebook/repos",
+              "events_url": "https://api.github.com/users/facebook/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/facebook/received_events",
+              "type": "Organization",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/facebook/react-devtools",
+            "description": "An extension that allows inspection of React component hierarchy in Chrome Developer Tools.",
+            "fork": false,
+            "url": "https://api.github.com/repos/facebook/react-devtools",
+            "forks_url": "https://api.github.com/repos/facebook/react-devtools/forks",
+            "keys_url": "https://api.github.com/repos/facebook/react-devtools/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/facebook/react-devtools/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/facebook/react-devtools/teams",
+            "hooks_url": "https://api.github.com/repos/facebook/react-devtools/hooks",
+            "issue_events_url": "https://api.github.com/repos/facebook/react-devtools/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/facebook/react-devtools/events",
+            "assignees_url": "https://api.github.com/repos/facebook/react-devtools/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/facebook/react-devtools/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/facebook/react-devtools/tags",
+            "blobs_url": "https://api.github.com/repos/facebook/react-devtools/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/facebook/react-devtools/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/facebook/react-devtools/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/facebook/react-devtools/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/facebook/react-devtools/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/facebook/react-devtools/languages",
+            "stargazers_url": "https://api.github.com/repos/facebook/react-devtools/stargazers",
+            "contributors_url": "https://api.github.com/repos/facebook/react-devtools/contributors",
+            "subscribers_url": "https://api.github.com/repos/facebook/react-devtools/subscribers",
+            "subscription_url": "https://api.github.com/repos/facebook/react-devtools/subscription",
+            "commits_url": "https://api.github.com/repos/facebook/react-devtools/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/facebook/react-devtools/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/facebook/react-devtools/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/facebook/react-devtools/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/facebook/react-devtools/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/facebook/react-devtools/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/facebook/react-devtools/merges",
+            "archive_url": "https://api.github.com/repos/facebook/react-devtools/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/facebook/react-devtools/downloads",
+            "issues_url": "https://api.github.com/repos/facebook/react-devtools/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/facebook/react-devtools/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/facebook/react-devtools/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/facebook/react-devtools/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/facebook/react-devtools/labels{/name}",
+            "releases_url": "https://api.github.com/repos/facebook/react-devtools/releases{/id}",
+            "created_at": "2013-09-04T20:28:43Z",
+            "updated_at": "2016-01-11T07:38:33Z",
+            "pushed_at": "2016-01-04T19:31:41Z",
+            "git_url": "git://github.com/facebook/react-devtools.git",
+            "ssh_url": "git@github.com:facebook/react-devtools.git",
+            "clone_url": "https://github.com/facebook/react-devtools.git",
+            "svn_url": "https://github.com/facebook/react-devtools",
+            "homepage": "",
+            "size": 63385,
+            "stargazers_count": 1918,
+            "watchers_count": 1918,
+            "language": "JavaScript",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 194,
+            "mirror_url": null,
+            "open_issues_count": 61,
+            "forks": 194,
+            "open_issues": 61,
+            "watchers": 1918,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/311"
+          },
+          "html": {
+            "href": "https://github.com/facebook/react-devtools/pull/311"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/issues/311"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/issues/311/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/311/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/pulls/311/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/facebook/react-devtools/statuses/2460c411ea54dc0fb9e3d749e84046b9c815d798"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 34,
+        "deletions": 1,
+        "changed_files": 2
+      }
+    },
+    "public": true,
+    "created_at": "2016-01-11T07:49:11Z",
+    "org": {
+      "id": 69631,
+      "login": "facebook",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/facebook",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+    }
+  },
+  {
+    "id": "3513014413",
+    "type": "PushEvent",
+    "actor": {
+      "id": 2942312,
+      "login": "ncthis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncthis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2942312?"
+    },
+    "repo": {
+      "id": 49406651,
+      "name": "ncthis/react-devtools",
+      "url": "https://api.github.com/repos/ncthis/react-devtools"
+    },
+    "payload": {
+      "push_id": 929656058,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "2460c411ea54dc0fb9e3d749e84046b9c815d798",
+      "before": "68a71d3d9e5bf982ced63a960437a53f789be64c",
+      "commits": [
+        {
+          "sha": "2460c411ea54dc0fb9e3d749e84046b9c815d798",
+          "author": {
+            "email": "nadeesha.cabral@gmail.com",
+            "name": "Nadeesha Cabral"
+          },
+          "message": "Debouncing search text change",
+          "distinct": true,
+          "url": "https://api.github.com/repos/ncthis/react-devtools/commits/2460c411ea54dc0fb9e3d749e84046b9c815d798"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2016-01-11T07:42:13Z"
+  },
+  {
+    "id": "3512891112",
+    "type": "ForkEvent",
+    "actor": {
+      "id": 2942312,
+      "login": "ncthis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncthis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2942312?"
+    },
+    "repo": {
+      "id": 12601374,
+      "name": "facebook/react-devtools",
+      "url": "https://api.github.com/repos/facebook/react-devtools"
+    },
+    "payload": {
+      "forkee": {
+        "id": 49406651,
+        "name": "react-devtools",
+        "full_name": "ncthis/react-devtools",
+        "owner": {
+          "login": "ncthis",
+          "id": 2942312,
+          "avatar_url": "https://avatars.githubusercontent.com/u/2942312?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ncthis",
+          "html_url": "https://github.com/ncthis",
+          "followers_url": "https://api.github.com/users/ncthis/followers",
+          "following_url": "https://api.github.com/users/ncthis/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ncthis/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ncthis/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ncthis/subscriptions",
+          "organizations_url": "https://api.github.com/users/ncthis/orgs",
+          "repos_url": "https://api.github.com/users/ncthis/repos",
+          "events_url": "https://api.github.com/users/ncthis/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ncthis/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "private": false,
+        "html_url": "https://github.com/ncthis/react-devtools",
+        "description": "An extension that allows inspection of React component hierarchy in Chrome Developer Tools.",
+        "fork": true,
+        "url": "https://api.github.com/repos/ncthis/react-devtools",
+        "forks_url": "https://api.github.com/repos/ncthis/react-devtools/forks",
+        "keys_url": "https://api.github.com/repos/ncthis/react-devtools/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/ncthis/react-devtools/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/ncthis/react-devtools/teams",
+        "hooks_url": "https://api.github.com/repos/ncthis/react-devtools/hooks",
+        "issue_events_url": "https://api.github.com/repos/ncthis/react-devtools/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/ncthis/react-devtools/events",
+        "assignees_url": "https://api.github.com/repos/ncthis/react-devtools/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/ncthis/react-devtools/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/ncthis/react-devtools/tags",
+        "blobs_url": "https://api.github.com/repos/ncthis/react-devtools/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/ncthis/react-devtools/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/ncthis/react-devtools/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/ncthis/react-devtools/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/ncthis/react-devtools/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/ncthis/react-devtools/languages",
+        "stargazers_url": "https://api.github.com/repos/ncthis/react-devtools/stargazers",
+        "contributors_url": "https://api.github.com/repos/ncthis/react-devtools/contributors",
+        "subscribers_url": "https://api.github.com/repos/ncthis/react-devtools/subscribers",
+        "subscription_url": "https://api.github.com/repos/ncthis/react-devtools/subscription",
+        "commits_url": "https://api.github.com/repos/ncthis/react-devtools/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/ncthis/react-devtools/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/ncthis/react-devtools/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/ncthis/react-devtools/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/ncthis/react-devtools/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/ncthis/react-devtools/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/ncthis/react-devtools/merges",
+        "archive_url": "https://api.github.com/repos/ncthis/react-devtools/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/ncthis/react-devtools/downloads",
+        "issues_url": "https://api.github.com/repos/ncthis/react-devtools/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/ncthis/react-devtools/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/ncthis/react-devtools/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/ncthis/react-devtools/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/ncthis/react-devtools/labels{/name}",
+        "releases_url": "https://api.github.com/repos/ncthis/react-devtools/releases{/id}",
+        "created_at": "2016-01-11T06:25:31Z",
+        "updated_at": "2016-01-11T06:15:32Z",
+        "pushed_at": "2016-01-04T19:31:41Z",
+        "git_url": "git://github.com/ncthis/react-devtools.git",
+        "ssh_url": "git@github.com:ncthis/react-devtools.git",
+        "clone_url": "https://github.com/ncthis/react-devtools.git",
+        "svn_url": "https://github.com/ncthis/react-devtools",
+        "homepage": "",
+        "size": 63385,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "has_issues": false,
+        "has_downloads": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "open_issues_count": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "master",
+        "public": true
+      }
+    },
+    "public": true,
+    "created_at": "2016-01-11T06:25:31Z",
+    "org": {
+      "id": 69631,
+      "login": "facebook",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/facebook",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69631?"
+    }
+  },
+  {
+    "id": "3493655133",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 2942312,
+      "login": "ncthis",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncthis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2942312?"
+    },
+    "repo": {
+      "id": 11530283,
+      "name": "VerbalExpressions/JSVerbalExpressions",
+      "url": "https://api.github.com/repos/VerbalExpressions/JSVerbalExpressions"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2016-01-05T04:11:51Z",
+    "org": {
+      "id": 5083777,
+      "login": "VerbalExpressions",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/VerbalExpressions",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5083777?"
+    }
+  }
+]
