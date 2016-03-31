@@ -5,8 +5,14 @@ import Connector from 'nemo-connector';
 
 const connector = new Connector();
 
-getAllUserEvents('ncthis')
-  .then(processResults)
-  .then(connector.addScores)
-  .then(console.log)
-  .catch(console.error);
+export default function (options) {
+  if (!options.username) {
+    throw new Error('Username not provided');
+  }
+
+  getAllUserEvents(options.username)
+    .then(processResults)
+    .then(connector.addScores)
+    .then(console.log)
+    .catch(console.error);
+}
