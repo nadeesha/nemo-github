@@ -4,8 +4,9 @@
   "description": "Github plugin for nemo",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "prebublish": "npm run build"
   },
   "author": "",
   "license": "ISC",
