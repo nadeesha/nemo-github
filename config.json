@@ -1,0 +1,36 @@
+{
+  "eventTypes": {
+    "IssuesEvent.opened": {
+      "name": "Open Issue",
+      "description": ""
+    },
+    "IssuesEvent.closed": {
+      "name": "Close Issue",
+      "description": ""
+    },
+    "IssuesEvent.reopened": {
+      "name": "Reopen Issue",
+      "description": ""
+    },
+    "IssueCommentEvent.created": {
+      "name": "Comment on Issue",
+      "description": ""
+    },
+    "PullRequestEvent.opened": {
+      "name": "Open PR",
+      "description": ""
+    },
+    "PullRequestEvent.closed": {
+      "name": "Close PR",
+      "description": ""
+    },
+    "PullRequestReviewCommentEvent.created": {
+      "name": "Make review comment on PR",
+      "description": ""
+    },
+    "PushEvent.default": {
+      "name": "Push code",
+      "description": ""
+    }
+  }
+}
