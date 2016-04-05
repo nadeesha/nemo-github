@@ -1,3 +1,5 @@
+import 'babel-polyfill';
+
 import getAllUserEvents from './getAllUserEvents.js';
 import processResults from './processResults.js';
 
