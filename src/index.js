@@ -3,7 +3,7 @@ import 'babel-polyfill';
 import getAllUserEvents from './getAllUserEvents.js';
 import processResults from './processResults.js';
 
-export default function (options, callback) {
+export function main (options, callback) {
   if (!options.username) {
     callback(new Error('Username not provided'));
   }
