@@ -1,15 +1,15 @@
 {
-  "name": "nemo-github",
+  "name": "plugin-public-github",
   "version": "0.0.1",
-  "description": "Github plugin for nemo",
+  "description": "Github public contributions plugin for nemo",
   "main": "lib/index.js",
   "scripts": {
     "test": "npm run build && mocha --compilers js:babel-register",
     "build": "babel src -d lib",
     "prebublish": "npm run build"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Nadeesha Cabral",
+  "license": "MIT",
   "dependencies": {
     "babel-polyfill": "^6.7.4",
     "nemo-connector": "0.0.3",
