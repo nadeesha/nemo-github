@@ -1,4 +1,6 @@
 {
+  "name": "Public Github Events",
+  "description": "Aggregates public github activity for a given username",
   "eventTypes": {
     "IssuesEvent.opened": {
       "name": "Open Issue",
